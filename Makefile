@@ -4,15 +4,15 @@ C_FILES= ./libc/string/ctos.c \
 		.libc/string/memcmp.c \
 		.libc/string/memset.c \
 		.libc/string/strcat.c \
-		.libc/string/strchr.c \ 
-		.libc/string/strcmp.c \ 
+		.libc/string/strchr.c \
+		.libc/string/strcmp.c \
 		.libc/string/strcpy.c \
 		.libc/string/strlen.c \
-		.libc/string/strncmp.c \ 
-		.libc/string/strstr.c \ 
+		.libc/string/strncmp.c \
+		.libc/string/strstr.c \
 		.libc/string/strutil.c \
-		.kernel/tty.c \ 
-	./kernel.c
+		.kernel/tty.c \
+		./kernel.c
 OBJS=$(C_FILES:.c=.o)
 
 all compile: $(TARGET)
