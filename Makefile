@@ -12,7 +12,7 @@ C_FILES= ./libc/string/ctos.c \
 		./libc/string/strstr.c \
 		./libc/string/strutil.c \
 		./kernel_files/tty.c \
-		./kernel_files/io.c
+		./kernel_files/io.c \
 		./kernel.c
 OBJS=$(C_FILES:.c=.o)
 
